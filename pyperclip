@@ -1,0 +1,4 @@
+import pyperclip
+pyperclip.copy("Hello Bhavani!")
+text = pyperclip.paste()
+print("Clipboard contains:", text)
